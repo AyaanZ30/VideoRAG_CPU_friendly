@@ -1,0 +1,11 @@
+{
+    "type" : "object",
+    "properties" : {
+        "answer" : {"type" : "string"}, 
+        "modality" : {"type" : "string", "enum" : ["audio", "visual"]}, 
+        "video" : {"type": "string"}, 
+        "start" : {"type" : "number"}, 
+        "end" : {"type" : "number"} 
+    },
+    "required" : ["answer", "modality", "video", "start", "end"]
+}

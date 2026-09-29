@@ -1,0 +1,4 @@
+twelvelabs
+openai-whisper 
+sentence-transformers 
+chromadb
